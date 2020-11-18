@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: rgb(103, 218, 193);
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.item{
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.item1{
+    background-color: rgb(153, 153, 204);
+    flex-shrink: 2;
+    order: 1;
+}
+.item2{
+    background-color: rgb(238, 183, 183);
+    flex-grow: 2;
+}
+.item3{
+    background-color: rgb(235, 235, 170);
+    align-self: flex-end;
+}
+.item4{
+    background-color: rgb(133, 177, 173);
+    order: -1;
+}
