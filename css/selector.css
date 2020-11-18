@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-    background-color: yellow;
+    background-color: rgb(165, 214, 195);
 }
 
 .web-list a[target]{
@@ -30,11 +30,17 @@ h2{
 }
 
 .study-list li:first-child{
-    background-color: skyblue;
-}
-.study-list li:last-child{
-    background-color: orange;
+    background-color: rgb(169, 225, 247);
 }
 .study-list li:nth-child(2){
-    font-size: 20px;
+    background-color: rgb(169, 178, 221);
+}
+
+.study-list li:nth-child(3){
+    background-color: rgb(162, 211, 181);
+}
+
+
+.study-list li:last-child{
+    background-color: rgb(196, 184, 216);
 }
